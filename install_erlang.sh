@@ -8,4 +8,8 @@ export ERL_TOP=`pwd`
 ./configure
 make -j 1
 sudo make install
-echo "done"
+echo "-----INSTALLED ERLANG SUCCESFULLY-----"
+sudo apt-get install git
+git clone https://github.com/ArchainTeam/archain.git
+echo "-----CLONED ARCHAIN REPO-----"
+echo "-----\nDONE!-----"
