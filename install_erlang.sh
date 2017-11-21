@@ -11,5 +11,6 @@ sudo make install
 echo "-----INSTALLED ERLANG SUCCESFULLY-----"
 sudo apt-get install -y git
 git clone https://github.com/ArchainTeam/archain.git
+git pull
 echo "-----CLONED ARCHAIN REPO-----"
 echo "-----\nDONE!-----"
